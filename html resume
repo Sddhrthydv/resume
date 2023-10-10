@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100xResume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="resume-header">
+        <div class="my-details">
+            <h1 id="myName">Siddharth Yadav</h1>
+            <em id="myRole">Tech enthusiast</em><br>
+            <span id="myContactDetails"> 
+                <img src="icons/telephone-fill.svg" alt="Tel">: +91 9521670366 | 
+                <img src="icons/envelope-fill.svg" alt="Mail">: yadavsiddharth2406@gmail.com |
+              
+                <img src="icons/github.svg" alt="git">: <a href="https://github.com/Sddhrthydv" target="_blank" rel="noopener noreferrer"> https://github.com/Sddhrthydv</a>
+                <a href="tel:+91 9521670366" target="_blank" rel="noopener noreferrer"><img src="icons/telephone-fill.svg" alt="Tel"></a> |
+                <a href="mailto:yadavsiddharth2406@gmail.com" target="_blank" rel="noopener noreferrer"><img src="icons/envelope-fill.svg" alt="Mail"></a> |
+            
+                <a href="https://github.com/Sddhrthydv" target="_blank" rel="noopener noreferrer"><img src="icons/github.svg" alt="git"></a>
+            </span>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="resume-sections" id="profileSummary">
+            <h3 class="resume-heading">Profile Summary</h3>
+            <div class="section-content">
+                <p>
+                    Budding full stack Developer 
+                                    </p>
+            </div>
+        </section>
+        <section class="resume-sections" id="experienceSection">
+            <h3 class="resume-heading">Experience</h3>
+            <div class="section-content within-experience-section">
+                <span class="expereince-heading">AI Accelerated Full Stack Developer Cohort at 100xEngineers</span><br>
+                <em>August 2023 - current</em>
+                <ul class="resume-list">
+                    <li>Developed a user-friendly real-time chat app with custom commands and emoji replacement functions using HTML, CSS, and JavaScript. Utilized Node.js and Socket.io for the backend and deployed on Render.</li>
+                </ul>
+            </div>
+                   <section class="resume-sections" id="skillSection">
+            <h3 class="resume-heading">Skills</h3>
+            <div class="section-content">
+                <label>Python: </label>
+                <progress value="60" max="100"></progress><br>
+            
+                <label>HTML: </label>
+                <progress value="70" max="100"></progress><br>
+                <label>CSS: </label>
+                <progress value="50" max="100"></progress><br>
+            </div>
+        </section>
+        <section class="resume-sections" id="education">
+            <h3 class="resume-heading">Education</h3>
+            <div class="section-content">
+                <span> Bachelor of Science in Environmental Science,Central University of Rajasthan,Ajmer </span>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
